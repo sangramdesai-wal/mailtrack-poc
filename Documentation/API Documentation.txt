@@ -1,0 +1,24 @@
+1) localhost:3000/mailtrack/plainText
+   sends plain text email to MailTrac Inbox
+2) localhost:3000/mailtrack/html
+    send email with html body to MailTrac Inbox
+3) localhost:3000/mailtrack/multiple-attachment
+     sends two attachment in mail to MailTrack Inbox
+4)  localhost:3000/mailtrack/pop3
+      reads mailtrack inbox & create json response per mail
+5)  localhost:3000/mailtrack/carboncopy
+      send mail with cc & bcc
+6)  localhost:3000/mailtrack/ejs-template
+      create html email body from ejs template
+7)  localhost:3000/mailtrack/attachment
+       send a pdf as attachment 
+8)  localhost:3000/mailtrack/html_text
+       sends both text & html content in single time 
+
+How to Check Mail in MailTrac Inbox
+   Login to mailtrack with following credentials and explore inbox.
+
+Login URL: https://mailtrap.io/signin
+Username:  sangram.d@westagilelabs.com
+password:  samsung@786
+     
